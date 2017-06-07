@@ -3,8 +3,5 @@ os: osx
 python:
   - "3.6"
 before_install:
-  - brew update
-  - brew install cairo
 install:
-  - pip install flake8==3.3.0
 script: "python helloworld.py"
